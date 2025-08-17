@@ -1,0 +1,32 @@
+*{
+  background-color: rgb(27, 27, 27);
+}
+p{
+  color: white;
+  font-family: arial;
+}
+.heading{
+  font-size: 30px;
+  font-weight: bold;
+}
+.rock-button,.paper-button,.scissors-button{
+  border:solid;
+  border-width: 2px;
+  border-color: white;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.rock,.paper,.scissors{
+  height:50px;
+}
+.reset{
+  background-color: white;
+  font-size: 16px;
+  padding: 10px 15px ;
+}
+.result{
+  font-size: 26px;
+  font-weight: bold;
+}
